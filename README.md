@@ -21,7 +21,14 @@ cd Shopcart_ecommerse_backend
 npm installs
 ```
 
-4. Turn up the server 
+4. create a new `.env.js` file in the root directory of the project (you can do it using `vim .env` and add the following environment variables to the `.env` file)
+
+```
+PORT=value_of_the_socket_port 
+```
+
+
+5. Turn up the server 
 
 ```
 npm start
